@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2>Sobre Nós</h2>
       <p>
         Fundada em 2024, a TechWave Solutions nasceu com a missão de
