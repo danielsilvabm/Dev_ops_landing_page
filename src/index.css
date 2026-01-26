@@ -212,6 +212,17 @@ section {
   margin-bottom: 1rem;
 }
 
+
+/* About */
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  
+}
+
+
+
 /* Contact */
 .contact {
   max-width: 600px;
