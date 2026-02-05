@@ -30,6 +30,7 @@ jobs:
 
       - name: Explorando o Runner
         run: lsb_release -a
+        run: free -h
 
       - name: Setup Node
         uses: actions/setup-node@v4
