@@ -28,6 +28,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Explorando o Runner
+        run: lsb_release -a
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -50,3 +53,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      
